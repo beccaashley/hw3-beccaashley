@@ -1,2 +1,9 @@
-# MyST build outputs
-_build
+_build/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+figures/*.png
+audio/*.wav
+*.egg-info/
