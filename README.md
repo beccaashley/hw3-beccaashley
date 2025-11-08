@@ -9,7 +9,7 @@ This project reproduces parts of the LIGO Gravitational Wave Event tutorial, inc
 - A full MyST website built from Jupyter Notebooks.
 
 ---
-
+ 
 ### Repository Contents
 
 - `LOSC_Event_tutorial.ipynb`: main notebook demonstrating the workflow.
