@@ -1,5 +1,6 @@
 format: jb-book
 root: README
 chapters:
+  - file: hw03_description
   - file: LOSC_Event_tutorial
 
