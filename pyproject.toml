@@ -1,23 +1,29 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel", "numpy"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "ligotools"
 version = "0.1.0"
-description = "LIGO tools for HW3"
+description = "LIGO Tools: functions for reading and analyzing gravitational wave data"
 authors = [
-    { name = "Ligo Scientific Collaboration (LSC) and Rebecca Bachtra" }
+    { name = "Rebecca Bachtra", email = "beccaashley@berkeley.edu" },
+    { name = "Ligo Scientific Collaboration", email = "email@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.9"
+
 dependencies = [
     "numpy",
     "scipy",
     "matplotlib",
     "h5py",
-    "gwpy",
+    "jupyter",
+    "ipython",
+    "pandas",
+    "pytest"
 ]
 
-[tool.setuptools]
-packages = ["ligotools"]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ligotools"]
