@@ -6,7 +6,7 @@
 
 [![launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-beccaashley/main)
 
-[https://beccaashley.github.io/hw3-beccaashley/](https://ucb-stat-159-f25.github.io/hw3-beccaashley/)
+[https://beccaashley.github.io/hw3-beccaashley/](https://beccaashley.github.io/hw3-beccaashley/)
 
 ---
 
