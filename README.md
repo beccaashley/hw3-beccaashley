@@ -1,35 +1,24 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-beccaashley/main)
-
 # LIGO Gravitational Wave Analysis - HW3
 
-## About:
+**LIGO Scientific Collaboration (LSC) and Rebecca Bachtra**
 
-This assignment extended the LIGO Gravitational Wave Detection tutorial into a fully reproducible research package. The goal was to transform a single exploratory notebook into a structured, testable, and deployable Python project.
-
-## Binder Link:
+📅 Review the assignment due date
 
 [![launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-beccaashley/main)
-
-## MyST Link:
 
 [https://ucb-stat-159-f25.github.io/hw3-beccaashley/](https://ucb-stat-159-f25.github.io/hw3-beccaashley/)
 
 ---
 
-## Project Contents
+## About
 
-This project reproduces parts of the LIGO Gravitational Wave Event tutorial, including:
+This assignment extended the LIGO Gravitational Wave Detection tutorial into a fully reproducible research package. The goal was to transform a single exploratory notebook into a structured, testable, and deployable Python project.
 
-- Implementation of `whiten`, `write_wavfile`, `reqshift`, and `plot_spectrogram` utilities
-- Modularization of code into `ligotools/utils.py`
-- Testing of these functions with Pytest
-- A full MyST website built from Jupyter Notebooks
-- Automated deployment via GitHub Actions
+Binder support was added to the updated notebook, enabling easier setup and execution. Additionally, a MyST website was created to showcase these improvements, and a Makefile was included to streamline the workflow.
 
-## Repository Structure
+---
 
-- `LOSC_Event_tutorial.ipynb`: main notebook demonstrating the workflow
-- `ligotools/`: package containing reusable code
-- `tests/`: unit tests for utilities
-- `myst.yml`: configuration file for the MyST site
-- `Makefile`: automation for environment setup and builds
+## Navigation
+
+**STAT 159 HW3**  
+**Homework 3 - From Notebooks to Research Packages, Part II** →
